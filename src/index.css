@@ -1,0 +1,51 @@
+body {
+  margin: 0%;
+  background-image: url(images/logo.jpeg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.top{
+  margin-top: 0%;
+  background-color: grey;
+  border-color: aliceblue;
+  font-weight: 100px;
+  margin-bottom: 0%;
+  margin-left:20px ;
+  text-align: center;
+
+}
+
+.nav{
+  background-color:grey;
+  color: black;
+  height: 30px;
+  text-align: center;
+  padding: auto;
+  display: flex;
+  justify-content:space-evenly;
+  
+  
+}
+.nav button{
+margin: auto;  
+  
+}
+#lan{
+  
+  margin-right: 10px;
+}
+#logo{
+  font-weight: bold;
+  font-size: x-large;
+  margin-right:30px;  
+}
+.signup{
+  margin:0%,15%,10%,15%;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-left: 30%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 15px 36px -18px inset;
+}
+.signup p{
+  padding: 1.5%;
+}
