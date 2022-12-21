@@ -16,7 +16,7 @@ body {
 }
 
 .nav{
-  background-color:grey;
+  background-color:whitesmoke;
   color: black;
   height: 30px;
   text-align: center;
@@ -48,4 +48,9 @@ margin: auto;
 }
 .signup p{
   padding: 1.5%;
+}
+.slider{
+  width: 100%;
+  height: 100px;
+  display:flex;
 }

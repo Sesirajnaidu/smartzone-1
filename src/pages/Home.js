@@ -1,5 +1,7 @@
 import React from 'react'
+import bootstrap from 'bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 const Home = () => {
@@ -12,13 +14,16 @@ const Home = () => {
     <div id="logo">SmartZone </div> 
     <div><button>Login</button><button>Sign-up</button></div> 
     </nav>
-    <div className='signup'>
-        <h1>REGISTER</h1>
+    <div >
+       <form className='signup'> <h1>REGISTER</h1>
         <p>Firstname<input placeholder=' Enter your firstname'/></p><p>Lastname<input placeholder=' Enter your Lastname'/></p>
         <p>Email<input placeholder='Enter your email-address'/></p><p>Phonenumber<input placeholder='Enter your phonenumber' /></p> 
         <p>Password<input placeholder='Enteryourpassword'/></p><p>Confirm password<input placeholder='Confirm your password' /></p>
-        <button>Register</button>
+        <button>Register</button></form>
         
+          </div>
+          <div>
+
           </div>
     
     </div>

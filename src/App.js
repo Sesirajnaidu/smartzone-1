@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
-import React,{useEffect,useState} from 'react';
-import { response } from 'express';
+import coursel from './pages/coursel';
+//import React,{useEffect,useState} from 'react';
+//import { response } from 'express';
 
 function App() {
-  const[backendData,setBackendData]=useState([{}])
+  /*const[backendData,setBackendData]=useState([{}])
   useEffect(()=>{
     fetch("/api").then(
       respone=>response.json()
@@ -14,8 +15,8 @@ function App() {
         setBackendData(data)
       }
     )
-  },[])
-  return (<Home/>
+  },[])*/
+  return (<div><Home/><coursel/></div>
    
   );
 }
